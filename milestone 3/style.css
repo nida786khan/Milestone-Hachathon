@@ -1,0 +1,117 @@
+/* General Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for the Form and Output */
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Styling */
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+  }
+  
+  /* Section Headings */
+  h2 {
+    color: #5d5d5d;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+  }
+  
+  label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+  }
+  
+  input, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.2);
+  }
+  
+  /* Button Styling */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  
+  /* Styling for Resume Output */
+  #resume-output {
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #fafafa;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    display: none;
+  }
+  
+  #resume-output h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+  }
+  
+  #resume-output p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+  }
+  
+  #resume-output h3 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #34495e;
+  }
+  
+  #resume-output span {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1rem;
+    margin-right: 5px;
+    display: inline-block;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
